@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final title = 'Fade in images';
 //assets/images/umbrella.jpg
+    //assets/images/new.jpg
     return MaterialApp(
       title: title,
       home: Scaffold(
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
        body: DecoratedBox(decoration: BoxDecoration(
          image: DecorationImage(
-           image: AssetImage('assets/umbrella.jpg'
+           image: AssetImage('assets/images/new.jpg'
            ),
          ),
        ),
